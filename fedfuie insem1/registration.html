@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login & Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="form-box">
+
+        <button onclick="showLogin()">Login</button>
+        <button onclick="showRegister()">Register</button>
+
+        <!-- Login Form -->
+        <div id="loginForm">
+            <h2>Login</h2>
+
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+
+            <button>Login</button>
+        </div>
+
+        <!-- Registration Form -->
+        <div id="registerForm" style="display:none;">
+            <h2>Registration</h2>
+
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Second Name">
+            <input type="date">
+
+            <input type="email" placeholder="Email">
+
+            <input type="tel" placeholder="Phone Number">
+
+            <select>
+                <option>Select Region</option>
+                <option>India</option>
+                <option>USA</option>
+                <option>UK</option>
+            </select>
+
+            <button>Submit</button>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="registration.js"></script>
+
+</body>
+</html>
